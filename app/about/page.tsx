@@ -10,17 +10,17 @@ export default function AboutPage() {
       </p>
 
       <p className="text-lg leading-relaxed mb-4">
-        JKM est un fournisseur leader de solutions complètes d'approvisionnement
+        JKM est un fournisseur leader de solutions complètes d&apos;approvisionnement
         et de logistique, adaptées aux divers besoins des entreprises de la RD Congo.
-        Avec un engagement envers l'excellence, nous nous appuyons sur notre vaste
+        Avec un engagement envers l&apos;excellence, nous nous appuyons sur notre vaste
         réseau et notre expertise sectorielle pour fournir des produits et des services
         de haute qualité de manière efficace et efficiente.
       </p>
 
       <p className="text-lg leading-relaxed mb-4">
-        JKM propose des services de location d'équipements miniers et de construction
+        JKM propose des services de location d&apos;équipements miniers et de construction
         technique avec un personnel formé et qualifié en stage et des partenaires
-        fiables, respectant les normes de sécurité et les procédures d'utilisation
+        fiables, respectant les normes de sécurité et les procédures d&apos;utilisation
         sûres des machines.
       </p>
 
@@ -32,7 +32,7 @@ export default function AboutPage() {
       </p>
 
       <p className="text-lg leading-relaxed">
-        JKM est également spécialisée dans la fourniture d'outils, de consommables
+        JKM est également spécialisée dans la fourniture d&apos;outils, de consommables
         et de lubrifiants pour la construction technique.
       </p>
     </div>
