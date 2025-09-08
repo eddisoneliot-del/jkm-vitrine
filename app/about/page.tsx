@@ -1,7 +1,7 @@
 export default function AboutPage() {
   return (
     <div className="p-10">
-      <h1 className="text-4xl font-bold mb-6">À propos de JKM CSS Sarl</h1>
+      <h1 className="text-4xl font-bold mb-6">À propos de JKM Sarl</h1>
 
       <p className="text-lg leading-relaxed mb-4">
         Fondée en 2023, JKM est devenue une entreprise locale de premier plan,
