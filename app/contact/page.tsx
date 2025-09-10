@@ -17,7 +17,7 @@ export default function ContactPage() {
         <h2 className="text-2xl font-semibold mt-6">Adresses</h2>
         <p>
           49, rue Kasaji, Quartier MUTOSHI, Kolwezi (Lualaba, RDC) <br />
-          278, Boulevard M’siri, Quartier Gambela II, Lubumbashi (Haut-Katanga, RDC)
+          11°37'43.8"S 27°29'36.7"E, Boulevard M’siri, Quartier Gambela II, Lubumbashi (Haut-Katanga, RDC)
         </p>
 
         <h2 className="text-2xl font-semibold mt-6">Emails</h2>
