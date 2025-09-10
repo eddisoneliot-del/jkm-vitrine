@@ -1,26 +1,26 @@
 export default function ServicesPage() {
   return (
-    <div className="p-10">
-      <h1 className="text-4xl font-bold mb-6">Nos Services</h1>
+    <section
+      className="relative min-h-screen text-white"
+      style={{
+        backgroundImage: "url('/images/engin.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      {/* Overlay sombre */}
+      <div className="absolute inset-0 bg-black/60"></div>
 
-      <h2 className="text-2xl font-semibold mt-6">Fourniture de biens</h2>
-      <ul className="list-disc list-inside ml-6 mt-2">
-        <li>Pièces détachées pour équipements miniers</li>
-        <li>Matériaux de construction et génie civil</li>
-        <li>Outils et consommables</li>
-        <li>Lubrifiants, huiles et graisses</li>
-        <li>Mobilier de bureau et équipements de protection individuelle (EPI)</li>
-        <li>Produits alimentaires, hôtellerie, énergie solaire, générateurs</li>
-      </ul>
-
-      <h2 className="text-2xl font-semibold mt-6">Prestations de services</h2>
-      <ul className="list-disc list-inside ml-6 mt-2">
-        <li>Location d’équipements miniers (excavatrices, bulldozers, camions, etc.)</li>
-        <li>Travaux de génie civil et construction</li>
-        <li>Entretien ménager et gestion des déchets</li>
-        <li>Réparation de radiateurs</li>
-        <li>Consultation, conseil et gestion de projets miniers</li>
-      </ul>
-    </div>
+      <div className="relative z-10 p-10">
+        <h1 className="text-4xl font-bold mb-6">Nos Services</h1>
+        <ul className="space-y-4 text-lg">
+          <li>✅ Location des engins miniers</li>
+          <li>✅ Ingénierie – construction</li>
+          <li>✅ Entretien de radiateurs</li>
+          <li>✅ Sous-traitance et formation d&apos;opérateurs d&apos;équipements lourds</li>
+          <li>✅ House keeping, entretien et nettoyage d&apos;équipements et immobilier</li>
+        </ul>
+      </div>
+    </section>
   );
 }
